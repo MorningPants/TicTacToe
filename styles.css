@@ -1,0 +1,48 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gameboardBackground {
+  background-color: black;
+  width: min-content;
+}
+
+.gameboard {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 2px;
+}
+
+.gameboard > div {
+  background-color: white;
+  padding: 10px;
+}
+
+.boardSpace {
+  border: none;
+  font-size: 80px;
+}
+
+#hideButtons {
+  display: none;
+}
+
+.buttonBox {
+  width: 300px;
+  font-size: 32px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.shapeButton{
+    font-size: 32px;
+}
+
+.speechBox {
+  height: 140px;
+}
+
+#speech {
+  font-size: 32px;
+}
