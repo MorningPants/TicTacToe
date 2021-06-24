@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="code.js"></script>
+  </head>
+  <body>
+    <div class="speechBox">
+        <p id="speech">
+            Care for a game?
+        </p>
+        <input id="okButton" type="button" onclick="opponentTurn(); checkWin()" value="Ok">
+        <input id="resetButton" type="button" onclick="reset();" value="Reset">
+        <div id="hideButtons">
+            <div class="buttonBox">
+                <input class="shapeButton" type="button" onclick="chooseX(); pickOrder();" value="X">
+                <input class="shapeButton" type="button" onclick="chooseO(); pickOrder();" value="O">
+            </div>
+        </div>
+    </div>
+    
+    <div id="gameboardBackground">
+      <div id="gameboard">
+        <input class="boardSpace" type="button" id="b1" onclick="markTile_1(); checkWin();" value=" ">
+        <input class="boardSpace" type="button" id="b2" onclick="markTile_2(); checkWin();" value=" ">
+        <input class="boardSpace" type="button" id="b3" onclick="markTile_3(); checkWin();" value=" ">
+
+        <input class="boardSpace" type="button" id="b4" onclick="markTile_4(); checkWin();" value=" ">
+        <input class="boardSpace" type="button" id="b5" onclick="markTile_5(); checkWin();" value=" ">
+        <input class="boardSpace" type="button" id="b6" onclick="markTile_6(); checkWin();" value=" ">
+
+        <input class="boardSpace" type="button" id="b7" onclick="markTile_7(); checkWin();" value=" ">
+        <input class="boardSpace" type="button" id="b8" onclick="markTile_8(); checkWin();" value=" ">
+        <input class="boardSpace" type="button" id="b9" onclick="markTile_9(); checkWin();" value=" ">
+      </div>
+    </div>
+  </body>
+</html>

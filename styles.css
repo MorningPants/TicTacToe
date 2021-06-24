@@ -2,12 +2,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.gameboardBackground {
+#gameboardBackground {
   background-color: black;
   width: min-content;
 }
 
-.gameboard {
+#gameboard {
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
@@ -37,6 +37,22 @@
 
 .shapeButton{
     font-size: 32px;
+}
+
+#okButton{
+  font-size: 32px;
+  width: 300px;
+  height: 50px;
+  display: none;
+  border: 1px solid green;
+}
+
+#resetButton{
+  font-size: 32px;
+  width: 300px;
+  height: 50px;
+  display: none;
+  border: 1px solid green;
 }
 
 .speechBox {
