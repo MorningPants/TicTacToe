@@ -21,6 +21,7 @@
 
 .boardSpace {
   border: none;
+  border-radius: 0;
   font-size: 80px;
 }
 

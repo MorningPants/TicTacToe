@@ -342,9 +342,39 @@ function checkWin() {
         document.getElementById("okButton").style.display = "none";
     }
     else if (row1 == -3 || row2 == -3 || row3 == -3 || col1 == -3 || col2 == -3 || col3 == -3 || diag1 == -3 || diag2 == -3) {
-        document.getElementById("speech").innerHTML = "I Win!\n Play Again?"
-        gamestate--
-        document.getElementById("resetButton").style.display = "block"
+        document.getElementById("speech").innerHTML = "I Win!\n Play Again?";
+        document.getElementById("resetButton").style.display = "block";
+        if (document.getElementById("b1").value == " ") {
+            document.getElementById("b1").value = "  "
+        }
+        if (document.getElementById("b2").value == " ") {
+            document.getElementById("b2").value = "  "
+        }
+        if (document.getElementById("b3").value == " ") {
+            document.getElementById("b3").value = "  "
+        }
+        if (document.getElementById("b4").value == " ") {
+            document.getElementById("b4").value = "  "
+        }
+        if (document.getElementById("b5").value == " ") {
+            document.getElementById("b5").value = "  "
+        }
+        if (document.getElementById("b6").value == " ") {
+            document.getElementById("b6").value = "  "
+        }
+        if (document.getElementById("b7").value == " ") {
+            document.getElementById("b7").value = "  "
+        }
+        if (document.getElementById("b7").value == " ") {
+            document.getElementById("b7").value = "  "
+        }
+        if (document.getElementById("b8").value == " ") {
+            document.getElementById("b8").value = "  "
+        }
+        if (document.getElementById("b9").value == " ") {
+            document.getElementById("b9").value = "  "
+        }
+
     }
     else if(i == 9)
         {
