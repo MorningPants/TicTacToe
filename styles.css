@@ -23,7 +23,8 @@
   border: none;
   font-size: 80px;
   -webkit-appearance: none;
-  background-color: lightslategrey;
+  -webkit-border-radius: none;
+  border-radius: 10px;
 }
 
 #hideButtons {
